@@ -1,11 +1,11 @@
 
 # coding: utf-8
 
-# In[4]:
-
-#!/bin/python3
-
-import sys
+# A game that poses condition on a user
+'''If  is odd, print Weird
+If  is even and in the inclusive range of  to , print Not Weird
+If  is even and in the inclusive range of  to , print Weird
+If  is even and greater than , print Not Weird'''
 
 
 N = int(input().strip())
