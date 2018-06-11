@@ -77,7 +77,7 @@ def buttonClick(id):
         root.title("Tic Tac Toe Game: player 2 your turn")
         activePlayer=2
         print ("p1:{}".format(p1))
-        Autoplay()
+       # Autoplay()
     elif activePlayer==2:
         setLayer(id,"O")
         p2.append(id)
